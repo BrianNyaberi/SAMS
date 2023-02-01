@@ -31,6 +31,9 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->get('/stripe', 'StripeController::index');
+$routes->post('/stripe/create-charge', 'StripeController::createCharge');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
