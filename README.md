@@ -1,27 +1,25 @@
-# CodeIgniter 4 Application Starter
+# CodeIgniter 4 Stripe Payment Gateway Integration Application 
 
-## What is CodeIgniter?
+## About project
+The payment gateway is one of the most important parts of an e-commerce site or any app that requires payment processing. One of the most popular payment processing platforms is stripe. Stripe has been one of the most chosen payment platforms for its simple integration and fast account setup. We will create a Charge in Stripe API using a token in this repo. 
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## project flow
+- [x] Step 1: Create Codeigniter Project
+- [x] Step 2: Add Stripe PHP Library
+- [x] Step 3: Get Stripe API key and Secret
+- [x] Step 4: Set Up Controller
+- [x] Step 5: Add Routes
+- [x] Step 6: Set Up View
+- [x] Step 7: Test Codeigniter Stripe App
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Test card
+Name	Number	Brand	CVC	Expiry	Date
+Test	4242 4242 4242 4242	Visa	456	12/25	2025
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+<!-- ![alt text](https://github.com/BrianNyaberi/MERN/blob/main/mern.png?raw=true) -->
 
 ## Installation & updates
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
 
 ## Setup
 
@@ -38,15 +36,6 @@ not to the project root. A better practice would be to configure a virtual host 
 framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
 
 ## Server Requirements
 
