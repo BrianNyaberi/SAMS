@@ -5,11 +5,9 @@ The payment gateway is one of the most important parts of an e-commerce site or 
 
 <br/>
 
-![alt text](https://github.com/BrianNyaberi/
-stripeSDK/blob/main/one.jpg?raw=true)
+![alt text](https://github.com/BrianNyaberi/stripeSDK/blob/main/one.jpg?raw=true)
 
-![alt text](https://github.com/BrianNyaberi/
-stripeSDK/blob/main/three.jpg?raw=true)
+![alt text](https://github.com/BrianNyaberi/stripeSDK/blob/main/three.jpg?raw=true)
 
 ## Project Flow
 - [x] Step 1: Create Codeigniter Project
