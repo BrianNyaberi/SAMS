@@ -1,9 +1,17 @@
 # CodeIgniter 4 Stripe Payment Gateway Integration Application 
 
-## About project
+## Description
 The payment gateway is one of the most important parts of an e-commerce site or any app that requires payment processing. One of the most popular payment processing platforms is stripe. Stripe has been one of the most chosen payment platforms for its simple integration and fast account setup. We will create a Charge in Stripe API using a token in this repo. 
 
-## project flow
+<br/>
+
+![alt text](https://github.com/BrianNyaberi/
+stripeSDK/blob/main/one.jpg?raw=true)
+
+![alt text](https://github.com/BrianNyaberi/
+stripeSDK/blob/main/three.jpg?raw=true)
+
+## Project Flow
 - [x] Step 1: Create Codeigniter Project
 - [x] Step 2: Add Stripe PHP Library
 - [x] Step 3: Get Stripe API key and Secret
@@ -12,19 +20,49 @@ The payment gateway is one of the most important parts of an e-commerce site or 
 - [x] Step 6: Set Up View
 - [x] Step 7: Test Codeigniter Stripe App
 
+<br/>
+
+## Getting started - How to Install and Run the Project on different environments
+
+- Fork the repository and Clone it to your local machine:
+  `git clone <repository-url>`
+
+- Copy `env` to `.env` and tailor for your app, specifically the baseURL
+and any database settings.
+
+<br/>
+
+## File structure.
+
+<br/>
+
 ## Test card
 Name	Number	Brand	CVC	Expiry	Date
 Test	4242 4242 4242 4242	Visa	456	12/25	2025
 
-<!-- ![alt text](https://github.com/BrianNyaberi/MERN/blob/main/mern.png?raw=true) -->
 
-## Installation & updates
+## Contributing
+
+- After forking you can create your own branch locally or work on the master branch.
+
+- For any the service, add the corresponding new folder to the base folder.
+
+- Add a new .yml file or add tests to an existing one in a particular folder.
+
+- Ensure that the .yml file is properly formatted and without errors.
+
+- Run your tests locally as highlighted in the "Running tests" section. 
+
+- Make your changes to the branch & Push your changes to the repository once work is complete.
+
+- Submit a pull request, to merge your branch into the source/master branch of the main repository. In this PR, add a minimum 2 reviewers. 1 ofthe reviewers is the codebase owner.
 
 
-## Setup
+<br/>
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Running tests
+- To run the tests, navigate to the folder you wish to run tests on.
+
 
 ## Important Change with index.php
 
