@@ -1,5 +1,4 @@
-
-<?php 
+<?php
 include 'Includes/dbcon.php';
 session_start();
 ?>
@@ -14,8 +13,8 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="img/logo/attnlg.jpg" rel="icon">
-  <title>AMS - Login</title>
+  <link href="img/logo/attnlg.png" rel="icon">
+  <title>KCAU - Login</title>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -33,7 +32,7 @@ session_start();
               <div class="col-lg-12">
                 <div class="login-form">
                   <div class="text-center">
-                    <img src="img/logo/attnlg.jpg" style="width:100px;height:100px">
+                    <img src="img/logo/attnlg.png" style="width:100px;height:100px">
                     <br><br>
                     <h1 class="h4 text-gray-900 mb-4">Login</h1>
                   </div>
@@ -42,7 +41,7 @@ session_start();
                       <input type="text" class="form-control" required name="username" id="exampleInputEmail" placeholder="Enter Email Address">
                     </div>
                     <div class="form-group">
-                      <input type="password" name = "password" required class="form-control" id="exampleInputPassword" placeholder="Enter Password">
+                      <input type="password" name="password" required class="form-control" id="exampleInputPassword" placeholder="Enter Password">
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small" style="line-height: 1.5rem;">
@@ -52,49 +51,46 @@ session_start();
                       </div>
                     </div>
                     <div class="form-group">
-                        <input type="submit"  class="btn btn-primary btn-block" value="Login" name="login" />
+                      <input type="submit" class="btn btn-primary btn-block" value="Login" name="login" />
                     </div>
-                     </form>
+                  </form>
 
-<?php
+                  <?php
 
-  if(isset($_POST['login'])){
+                  if (isset($_POST['login'])) {
 
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+                    $username = $_POST['username'];
+                    $password = $_POST['password'];
 
-    $password = md5($password);
+                    $password = md5($password);
 
-    $query = "SELECT * FROM tblclassteacher WHERE emailAddress = '$username' AND password = '$password'";
-    $rs = $conn->query($query);
-    $num = $rs->num_rows;
-    $rows = $rs->fetch_assoc();
+                    $query = "SELECT * FROM tblclassteacher WHERE emailAddress = '$username' AND password = '$password'";
+                    $rs = $conn->query($query);
+                    $num = $rs->num_rows;
+                    $rows = $rs->fetch_assoc();
 
-    if($num > 0){
+                    if ($num > 0) {
 
-      $_SESSION['userId'] = $rows['Id'];
-      $_SESSION['firstName'] = $rows['firstName'];
-      $_SESSION['lastName'] = $rows['lastName'];
-      $_SESSION['emailAddress'] = $rows['emailAddress'];
-      $_SESSION['classId'] = $rows['classId'];
-      $_SESSION['classArmId'] = $rows['classArmId'];
+                      $_SESSION['userId'] = $rows['Id'];
+                      $_SESSION['firstName'] = $rows['firstName'];
+                      $_SESSION['lastName'] = $rows['lastName'];
+                      $_SESSION['emailAddress'] = $rows['emailAddress'];
+                      $_SESSION['classId'] = $rows['classId'];
+                      $_SESSION['classArmId'] = $rows['classArmId'];
 
-      echo "<script type = \"text/javascript\">
+                      echo "<script type = \"text/javascript\">
       window.location = (\"ClassTeacher/index.php\")
       </script>";
-    }
+                    } else {
 
-    else{
-
-      echo "<div class='alert alert-danger' role='alert'>
+                      echo "<div class='alert alert-danger' role='alert'>
       Invalid Username/Password!
       </div>";
+                    }
+                  }
+                  ?>
 
-    }
-  }
-?>
-
-                    <!-- <hr>
+                  <!-- <hr>
                     <a href="index.html" class="btn btn-google btn-block">
                       <i class="fab fa-google fa-fw"></i> Login with Google
                     </a>

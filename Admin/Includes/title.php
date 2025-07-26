@@ -1,1 +1,1 @@
-  <title>AMS - Dashboard</title>
+  <title>KCAU - Dashboard</title>
