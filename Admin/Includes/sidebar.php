@@ -13,7 +13,7 @@
    </li>
    <hr class="sidebar-divider">
    <div class="sidebar-heading">
-     Class and Class Arms
+     Class and Class Units
    </div>
    <li class="nav-item">
      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
@@ -33,12 +33,12 @@
      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrapusers"
        aria-expanded="true" aria-controls="collapseBootstrapusers">
        <i class="fas fa-code-branch"></i>
-       <span>Manage Class Arms</span>
+       <span>Manage Class Units</span>
      </a>
      <div id="collapseBootstrapusers" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
        <div class="bg-white py-2 collapse-inner rounded">
-         <h6 class="collapse-header">Manage Class Arms</h6>
-         <a class="collapse-item" href="createClassArms.php">Create Class Arms</a>
+         <h6 class="collapse-header">Manage Class Units</h6>
+         <a class="collapse-item" href="createClassUnits.php">Create Class Units</a>
          <!-- <a class="collapse-item" href="usersList.php">User List</a> -->
        </div>
      </div>
