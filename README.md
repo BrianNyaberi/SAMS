@@ -1,87 +1,24 @@
-# CodeIgniter 4 Stripe Payment Gateway Integration Application 
 
-## Description
-The payment gateway is one of the most important parts of an e-commerce site or any app that requires payment processing. One of the most popular payment processing platforms is stripe. Stripe has been one of the most chosen payment platforms for its simple integration and fast account setup. We will create a Charge in Stripe API using a token in this repo. 
-
-<br/>
-
-![alt text](https://github.com/BrianNyaberi/stripeSDK/blob/main/one.jpg?raw=true)
-
-![alt text](https://github.com/BrianNyaberi/stripeSDK/blob/main/three.jpg?raw=true)
-
-## Project Flow
-- [x] Step 1: Create Codeigniter Project
-- [x] Step 2: Add Stripe PHP Library
-- [x] Step 3: Get Stripe API key and Secret
-- [x] Step 4: Set Up Controller
-- [x] Step 5: Add Routes
-- [x] Step 6: Set Up View
-- [x] Step 7: Test Codeigniter Stripe App
-
-<br/>
-
-## Getting started - How to Install and Run the Project on different environments
-
-- Fork the repository and Clone it to your local machine:
-  `git clone <repository-url>`
-
-- Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-<br/>
-
-## File structure.
-
-<br/>
-
-## Test card
-Name	Number	Brand	CVC	Expiry	Date
-Test	4242 4242 4242 4242	Visa	456	12/25	2025
+https://github.com/jsurya860/Attendance-Management-System-
+https://www.sourcecodester.com/php/14173/attendance-management-system.html
 
 
-## Contributing
+# Student-Attendance-Management-System
+This PHP attendance system project is primarily concerned with dealing with students' attendance and records. In addition, the system displays all available data, such as instructor and student information, as well as their individual attendance. Admin Panel, Student Panel, and Teacher's Panel are the three sections of the project. In this web app's overview, the administrator has the ability to create users as well as insert student and teacher data. In terms of the project, the administrator has access to all student and teacher records. The teacher's account allows him or her to filter student data and keep track of his or her attendance for a certain subject. Aside from that, the student has access to just records and attendance reports.
 
-- After forking you can create your own branch locally or work on the master branch.
+** Admin Login Details **
+* Email   : admin@mail.com
+* Password: 
 
-- For any the service, add the corresponding new folder to the base folder.
+**Teacher Login Details**
 
-- Add a new .yml file or add tests to an existing one in a particular folder.
-
-- Ensure that the .yml file is properly formatted and without errors.
-
-- Run your tests locally as highlighted in the "Running tests" section. 
-
-- Make your changes to the branch & Push your changes to the repository once work is complete.
-
-- Submit a pull request, to merge your branch into the source/master branch of the main repository. In this PR, add a minimum 2 reviewers. 1 ofthe reviewers is the codebase owner.
-
-
-<br/>
-
-## Running tests
-- To run the tests, navigate to the folder you wish to run tests on.
-
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+* Email   : teacher@mail.com
+* Password: 
+#
+![Screenshot (1308)](https://user-images.githubusercontent.com/36708000/173136998-4de6eccc-377f-419e-83b6-e767503bbb5d.png)
+#
+![Screenshot (1309)](https://user-images.githubusercontent.com/36708000/173137041-69d68213-077d-4362-bd4e-cfba5a6b2202.png)
+#
+![Screenshot (1313)](https://user-images.githubusercontent.com/36708000/173137057-5aad5420-7689-4d5e-aae0-df796154e993.png)
+#
+![Screenshot (1316)](https://user-images.githubusercontent.com/36708000/173137075-81d7b66e-a5cc-4228-ab14-cecc465701d7.png)
